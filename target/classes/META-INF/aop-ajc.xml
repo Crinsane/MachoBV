@@ -1,0 +1,28 @@
+<aspectj>
+<aspects>
+<aspect name="nl.machobv.models.RouteWork_Roo_JavaBean"/>
+<aspect name="nl.machobv.controllers.RouteController_Roo_Controller_Finder"/>
+<aspect name="nl.machobv.models.City_Roo_JavaBean"/>
+<aspect name="nl.machobv.models.City_Roo_ToString"/>
+<aspect name="nl.machobv.models.RouteWork_Roo_Jpa_Entity"/>
+<aspect name="nl.machobv.models.Route_Roo_JavaBean"/>
+<aspect name="nl.machobv.controllers.RouteWorkController_Roo_Controller_Finder"/>
+<aspect name="nl.machobv.controllers.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="nl.machobv.models.RouteWork_Roo_ToString"/>
+<aspect name="nl.machobv.models.RouteWork_Roo_Configurable"/>
+<aspect name="nl.machobv.models.Route_Roo_Jpa_ActiveRecord"/>
+<aspect name="nl.machobv.models.Route_Roo_Finder"/>
+<aspect name="nl.machobv.models.Route_Roo_Jpa_Entity"/>
+<aspect name="nl.machobv.models.City_Roo_Jpa_ActiveRecord"/>
+<aspect name="nl.machobv.models.RouteWork_Roo_Jpa_ActiveRecord"/>
+<aspect name="nl.machobv.models.City_Roo_Jpa_Entity"/>
+<aspect name="nl.machobv.models.Route_Roo_ToString"/>
+<aspect name="nl.machobv.controllers.RouteWorkController_Roo_Controller"/>
+<aspect name="nl.machobv.models.Route_Roo_Configurable"/>
+<aspect name="nl.machobv.models.RouteWork_Roo_Finder"/>
+<aspect name="nl.machobv.models.City_Roo_Configurable"/>
+<aspect name="nl.machobv.controllers.CityController_Roo_Controller"/>
+<aspect name="nl.machobv.controllers.RouteController_Roo_Controller"/>
+</aspects>
+</aspectj>
+
