@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_nl_machobv_models_Route" object="${route}" path="/routes" z="cCpVBhPEuUdTOmE888a45uhbL7k=">
+        <field:display field="origin" id="s_nl_machobv_models_Route_origin" object="${route}" z="eQJ0sco0HwEf7bhw1EXUbr16oNM="/>
+        <field:display field="destination" id="s_nl_machobv_models_Route_destination" object="${route}" z="T++9PV24RBmwIb/KHjZEnxyXDIc="/>
+        <field:display field="distance" id="s_nl_machobv_models_Route_distance" object="${route}" z="kgnVf+GtESQpr7nMmf7OlDmO4CE="/>
+        <field:display field="duration" id="s_nl_machobv_models_Route_duration" object="${route}" z="bX64tOSGny2iSSRO+0aps6LaFEI="/>
+    </page:show>
+</div>

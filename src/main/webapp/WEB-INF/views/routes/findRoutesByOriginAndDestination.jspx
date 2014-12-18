@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:find finderName="ByOriginAndDestination" id="ff_nl_machobv_models_Route" path="/routes" z="btPVh7J8GJM1t/l/InWIyFmeWj4=">
+        <field:select disableFormBinding="true" field="origin" id="f_nl_machobv_models_Route_origin" itemValue="id" items="${citys}" path="/citys" required="true" z="2lIPo2juJFuDA8siv/zx0i0Lr6g="/>
+        <field:select disableFormBinding="true" field="destination" id="f_nl_machobv_models_Route_destination" itemValue="id" items="${citys}" path="/citys" required="true" z="awPZDLNvv8GwwDvAHkmHzM21bUc="/>
+    </form:find>
+</div>

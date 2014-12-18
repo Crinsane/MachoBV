@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:find finderName="ByOriginAndDestinationAndStart_atLessThanEqualsAndEnd_atGreaterThanEquals" id="ff_nl_machobv_models_RouteWork" path="/routeworks" z="jhcySe1rKIIP1zdTTA4VvN5sNKI=">
+        <field:select disableFormBinding="true" field="origin" id="f_nl_machobv_models_RouteWork_origin" itemValue="id" items="${citys}" path="/citys" required="true" z="O2kV6ihdb7LBPz6Z3k1BlYmaZcA="/>
+        <field:select disableFormBinding="true" field="destination" id="f_nl_machobv_models_RouteWork_destination" itemValue="id" items="${citys}" path="/citys" required="true" z="PF3l9fEbOnO6JM4r1HozGIWvgYk="/>
+        <field:datetime dateTimePattern="${routeWork_start_at_date_format}" disableFormBinding="true" field="start_at" id="f_nl_machobv_models_RouteWork_start_at" required="true" z="E6VOSib0Qeezfv/uTtNv4lbO2ew="/>
+        <field:datetime dateTimePattern="${routeWork_end_at_date_format}" disableFormBinding="true" field="end_at" id="f_nl_machobv_models_RouteWork_end_at" required="true" z="e57m/6rR1N/mi6HcGScDFLEU8iY="/>
+    </form:find>
+</div>

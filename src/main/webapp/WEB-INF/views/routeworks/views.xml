@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="routeworks/list">
+        <put-attribute name="body" value="/WEB-INF/views/routeworks/list.jspx"/>
+    </definition>
+<definition extends="default" name="routeworks/show">
+        <put-attribute name="body" value="/WEB-INF/views/routeworks/show.jspx"/>
+    </definition>
+<definition extends="default" name="routeworks/create">
+        <put-attribute name="body" value="/WEB-INF/views/routeworks/create.jspx"/>
+    </definition>
+<definition extends="default" name="routeworks/update">
+        <put-attribute name="body" value="/WEB-INF/views/routeworks/update.jspx"/>
+    </definition>
+<definition extends="default" name="routeworks/findRouteWorksByOriginAndDestinationAndStart_atGreaterThanEqualsAndEnd_atLessThanEquals">
+        <put-attribute name="body" value="/WEB-INF/views/routeworks/findRouteWorksByOriginAndDestinationAndStart_atGreaterThanEqualsAndEnd_atLessThanEquals.jspx"/>
+    </definition>
+<definition extends="default" name="routeworks/findRouteWorksByOriginAndDestinationAndStart_atLessThanEqualsAndEnd_atGreaterThanEquals">
+        <put-attribute name="body" value="/WEB-INF/views/routeworks/findRouteWorksByOriginAndDestinationAndStart_atLessThanEqualsAndEnd_atGreaterThanEquals.jspx"/>
+    </definition>
+</tiles-definitions>

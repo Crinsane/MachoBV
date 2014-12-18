@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_nl_machobv_models_RouteWork" items="${routeworks}" z="V6e7WzQCaXRBdFaiHNszxUAwn/I=">
+        <table:table data="${routeworks}" id="l_nl_machobv_models_RouteWork" path="/routeworks" z="JHRNuQBxr8N7JboiXZ6aZGlNK5c=">
+            <table:column id="c_nl_machobv_models_RouteWork_origin" property="origin" z="/Llfd74UBBLIx5ivoB31yMAGtA0="/>
+            <table:column id="c_nl_machobv_models_RouteWork_destination" property="destination" z="5UuwQ3AZFgTMoHoJcIv0kV2b3NE="/>
+            <table:column id="c_nl_machobv_models_RouteWork_delay" property="delay" z="5K5RLDl3spfLRr21W+20PS3zE30="/>
+            <table:column id="c_nl_machobv_models_RouteWork_closed" property="closed" z="mQY7hpGs+EpjIitT7fI1AwiysB8="/>
+            <table:column date="true" dateTimePattern="${routeWork_start_at_date_format}" id="c_nl_machobv_models_RouteWork_start_at" property="start_at" z="O6vPda7TbjqVj9z3G2BeZYvnQXE="/>
+            <table:column date="true" dateTimePattern="${routeWork_end_at_date_format}" id="c_nl_machobv_models_RouteWork_end_at" property="end_at" z="o6C7UZjxvFgJQ4X5CDnExTqih+A="/>
+        </table:table>
+    </page:list>
+</div>

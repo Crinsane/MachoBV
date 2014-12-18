@@ -1,0 +1,41 @@
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log opened at 2014-12-18 10:41:09
+project --topLevelPackage nl.machobv --projectName MachoBV --java 7 --packaging JAR
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log closed at 2014-12-18 10:41:20
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log opened at 2014-12-18 10:41:24
+persistence setup --provider HIBERNATE --database MYSQL
+entity jpa --class ~.models.City --testAutomatically 
+field string --fieldName name 
+entity jpa --class ~.models.Route --testAutomatically 
+field reference --fieldName origin --type ~.models.City
+field reference --fieldName destination --type ~.models.City
+field number --fieldName distance --type double
+field number --fieldName duration --type double
+entity jpa --class ~.models.RouteWork --testAutomatically 
+field reference --fieldName origin --type ~.models.City
+field reference --fieldName destination --type ~.models.City
+field date --fieldName start_at --type java.util.Date
+field date --fieldName end_at --type java.util.Date
+field number --fieldName delay --type double
+field boolean --fieldName closed 
+web mvc setup 
+controller all --package nl.machobv.controllers
+focus --class ~.models.RouteWork
+field date --fieldName start_at --type java.util.Date
+field date --fieldName end_at --type java.util.Date
+controller all --package nl.machobv.controllers
+web mvc all --package nl.machobv.controllers
+focus --class ~.models.Route 
+finder list --depth 1
+finder list --depth 2
+finder list --depth 3
+finder list --depth 2
+finder add --finderName findRoutesByOriginAndDestination
+focus --class ~.models.RouteWork
+// [failed] finder list --depth 4
+finder list --depth 3
+finder list 
+finder add --finderName findRouteWorksByOriginAndDestinationAndStart_atGreaterThanEqualsAndEnd_atLessThanEquals
+web mvc finder all
+finder add --finderName findRouteWorksByOriginAndDestinationAndStart_atLessThanEqualsAndEnd_atGreaterThanEquals
+web mvc finder all
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log closed at 2014-12-18 12:11:26

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_route" z="J85MNQrOVAYLt0/qeu0bZavAYOM=">
+            <menu:item id="i_route_new" messageCode="global_menu_new" url="/routes?form" z="jZWrtxLAu6esvr83Jy4dDvJlrBo="/>
+            <menu:item id="i_route_list" messageCode="global_menu_list" url="/routes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="80yOPIIAzLpz62Ol2dbvx8lCfJI="/>
+            <menu:item id="fi_route_originanddestination" messageCode="global_menu_find" url="/routes?find=ByOriginAndDestination&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="LafUwEo4D8NGOfo4TtiOkNn64F8="/>
+        </menu:category>
+        <menu:category id="c_city" z="4hVKAkWoLVM4Da06LymSga9Sizg=">
+            <menu:item id="i_city_new" messageCode="global_menu_new" url="/citys?form" z="dbfrmJjWGvOtF7e23trrw/vQnRE="/>
+            <menu:item id="i_city_list" messageCode="global_menu_list" url="/citys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Yq246nbcmHRrSUSB+sOWkE5wtxQ="/>
+        </menu:category>
+        <menu:category id="c_routework" z="VRMiQOD5cKflutyot8JSy75XFsc=">
+            <menu:item id="i_routework_new" messageCode="global_menu_new" url="/routeworks?form" z="8KnrlzJJ/88Yd5f3eZWnD0IRdsw="/>
+            <menu:item id="i_routework_list" messageCode="global_menu_list" url="/routeworks?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Rhd4Wt9eMatqiLLeZvmkOGO4/BI="/>
+            <menu:item id="fi_routework_originanddestinationandstart_atlessthanequalsandend_atgreaterthanequals" messageCode="global_menu_find" url="/routeworks?find=ByOriginAndDestinationAndStart_atLessThanEqualsAndEnd_atGreaterThanEquals&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="xUzeE83mfRypiAld1Jak+0AjT5o="/>
+        </menu:category>
+    </menu:menu>
+</div>

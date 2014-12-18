@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_nl_machobv_models_Route" items="${routes}" z="2//ZZaUiHfyYusz7gcaRLtc5jng=">
+        <table:table data="${routes}" id="l_nl_machobv_models_Route" path="/routes" z="P2WU4dwhbWQbrJ4LbvVZxCDmRuw=">
+            <table:column id="c_nl_machobv_models_Route_origin" property="origin" z="Re6iw4/LrX9S1UPA1yppbTLpQR4="/>
+            <table:column id="c_nl_machobv_models_Route_destination" property="destination" z="de3LIEadDaNLYQMA85E0uGl7oI4="/>
+            <table:column id="c_nl_machobv_models_Route_distance" property="distance" z="RoHvGk2JkZWV/Lki5IYV1AVVgDs="/>
+            <table:column id="c_nl_machobv_models_Route_duration" property="duration" z="OL/NjGA5xb+wXBNN5Qr/UNK+fVc="/>
+        </table:table>
+    </page:list>
+</div>
