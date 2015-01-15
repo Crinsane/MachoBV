@@ -1,17 +1,17 @@
 <aspectj>
 <aspects>
-<aspect name="nl.machobv.models.RouteWorkIntegrationTest_Roo_Configurable"/>
-<aspect name="nl.machobv.models.RouteDataOnDemand_Roo_Configurable"/>
-<aspect name="nl.machobv.models.CityIntegrationTest_Roo_Configurable"/>
-<aspect name="nl.machobv.models.RouteWorkIntegrationTest_Roo_IntegrationTest"/>
-<aspect name="nl.machobv.models.RouteIntegrationTest_Roo_IntegrationTest"/>
-<aspect name="nl.machobv.models.RouteDataOnDemand_Roo_DataOnDemand"/>
 <aspect name="nl.machobv.models.RouteWorkDataOnDemand_Roo_Configurable"/>
-<aspect name="nl.machobv.models.CityDataOnDemand_Roo_DataOnDemand"/>
 <aspect name="nl.machobv.models.RouteIntegrationTest_Roo_Configurable"/>
-<aspect name="nl.machobv.models.CityDataOnDemand_Roo_Configurable"/>
-<aspect name="nl.machobv.models.RouteWorkDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="nl.machobv.models.RouteWorkIntegrationTest_Roo_Configurable"/>
+<aspect name="nl.machobv.models.CityDataOnDemand_Roo_DataOnDemand"/>
 <aspect name="nl.machobv.models.CityIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="nl.machobv.models.RouteWorkIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="nl.machobv.models.RouteWorkDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="nl.machobv.models.CityIntegrationTest_Roo_Configurable"/>
+<aspect name="nl.machobv.models.CityDataOnDemand_Roo_Configurable"/>
+<aspect name="nl.machobv.models.RouteDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="nl.machobv.models.RouteDataOnDemand_Roo_Configurable"/>
+<aspect name="nl.machobv.models.RouteIntegrationTest_Roo_IntegrationTest"/>
 </aspects>
 </aspectj>
 
